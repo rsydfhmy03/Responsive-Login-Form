@@ -40,7 +40,7 @@ body{
 }
 
 .img img{
-	width: 500px;
+	width: 400px;
 }
 
 form{
@@ -48,14 +48,15 @@ form{
 }
 
 .login-content img{
-    height: 100px;
+    height: 50px;
+	
 }
 
-.login-content h2{
+.login-content h3{
 	margin: 15px 0;
 	color: #333;
-	text-transform: uppercase;
-	font-size: 2.9rem;
+	/* text-transform: uppercase; */
+	font-size: 2.0rem;
 }
 
 .login-content .input-div{
@@ -103,7 +104,7 @@ form{
 	bottom: -2px;
 	width: 0%;
 	height: 2px;
-	background-color: #38d39f;
+	background-color: #1976D2;
 	transition: .4s;
 }
 
@@ -125,7 +126,7 @@ form{
 }
 
 .input-div.focus > .i > i{
-	color: #38d39f;
+	color: #1976D2;
 }
 
 .input-div > div > input{
@@ -167,7 +168,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-image: linear-gradient(to right, #1976D2, #4faaff, #1976D2);
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
